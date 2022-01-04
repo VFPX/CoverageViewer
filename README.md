@@ -1,17 +1,5 @@
 # Coverage Viewer
 
-<style type="text/css">
-
-.redBand {
-    background-color: #FFD2CB
-}
-
-.yellowBand {
-    background-color: #FFF4CB
-}
-
-</style>
-
 CvgViewr - Coverage Viewer - by Ken Green at [Advance Data Systems](http://www.AdvanceDataSystems.biz)
 
 Your client says the [your\_beautiful\_process] is taking too long! The Signer-Of-Checks must be kept happy, so you SET COVERAGE TO [logFile], run the process, then turn off coverage. Now what? You have a huge log file. VFP has the coverage profiler whose "Profile Mode" shows us times - but perhaps too much. Here's an example:
@@ -79,18 +67,11 @@ Parameters:
 
 ## Color Coding
 
-<ul>
-    <li style="background-color: #D2E3EF">This is bare PRG code - not in functions or methods.</li>
-    <li style="background-color: #D7D7F2">This code is within functions, not classes.</li>
-    <li style="background-color: #D1F1E4">This code is within a class's methods.</li>
-</ul>
+![](Docs/color1.png)
 
 Your tests will surely have lots of lines of code. So when you look through your code chunks, some lines will be colored as follows:
 
-<ul>
-    <li class="redBand">This line runs the longest within a code chunk.</li>
-    <li class="yellowBand">This is for up to 2 lines within 80% of the time of the red line that may also be worth checking.</li>
-</ul>
+![](Docs/color2.png)
 
 ## Notes
 
