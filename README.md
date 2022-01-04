@@ -2,18 +2,6 @@
 
 <style type="text/css">
 
-.colorB {
-    background-color: #D2E3EF;
-}
-
-.colorF {
-    background-color: #D7D7F2;
-}
-
-.colorM {
-    background-color: #D1F1E4;
-}
-
 .redBand {
     background-color: #FFD2CB
 }
@@ -92,9 +80,9 @@ Parameters:
 ## Color Coding
 
 <ul>
-    <li class="colorB">This is bare PRG code - not in functions or methods.</li>
-    <li class="colorF">This code is within functions, not classes.</li>
-    <li class="colorM">This code is within a class's methods.</li>
+    <li style="background-color: #D2E3EF">This is bare PRG code - not in functions or methods.</li>
+    <li style="background-color: #D7D7F2">This code is within functions, not classes.</li>
+    <li style="background-color: #D1F1E4">This code is within a class's methods.</li>
 </ul>
 
 Your tests will surely have lots of lines of code. So when you look through your code chunks, some lines will be colored as follows:
